@@ -31,7 +31,7 @@ namespace AOC_2020.Days
             Console.WriteLine(GetType().Name);
             Console.WriteLine("✅ Part 1: " + Result.Part1);
             Console.WriteLine("✅ Part 2: " + Result.Part2);
-            Console.WriteLine($"Completed in {elapsedTime}");
+            Console.WriteLine($"Completed in {elapsedTime}\n");
         }
 
         /**
