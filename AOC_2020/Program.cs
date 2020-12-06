@@ -17,6 +17,7 @@ namespace AOC_2020
                 Console.WriteLine("3. Day_03");
                 Console.WriteLine("4. Day_04");
                 Console.WriteLine("5. Day_05");
+                Console.WriteLine("6. Day_06");
                 Console.WriteLine("0. Clear Console");
                 Console.WriteLine("-1. Exit");
                 input = Console.ReadLine();
@@ -50,6 +51,12 @@ namespace AOC_2020
                     {
                         var day05 = new Day5();
                         day05.Run();
+                        break;
+                    }
+                    case "6":
+                    {
+                        var day6 = new Day6();
+                        day6.Run();
                         break;
                     }
                     case "0":
