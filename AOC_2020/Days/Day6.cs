@@ -8,12 +8,12 @@ namespace AOC_2020.Days
     {
         private string[] GroupsData;
 
-        protected override object part1()
+        public override object part1()
         {
             return CountGroupsYesAnswers();
         }
 
-        protected override object part2()
+        public override object part2()
         {
             return CountGroupsWhereEveryoneAnswersYesToSameQuestions();
         }

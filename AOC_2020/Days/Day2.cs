@@ -9,12 +9,12 @@ namespace AOC_2020.Days
     {
         private PasswordChecker[] PasswordCheckers;
 
-        protected override object part1()
+        public override object part1()
         {
             return PasswordCheckers.Count(x => x.isValidPartOne);
         }
 
-        protected override object part2()
+        public override object part2()
         {
             return PasswordCheckers.Count(x => x.isValidPartTwo);
         }

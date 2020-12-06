@@ -26,12 +26,12 @@ namespace AOC_2020.Days
         };
         private string[] passportsData;
 
-        protected override object part1()
+        public override object part1()
         {
             return CountValidPasswords();
         }
 
-        protected override object part2()
+        public override object part2()
         {
             return CountValidPassword2();
         }

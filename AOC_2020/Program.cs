@@ -4,15 +4,16 @@ using AOC_2020.Days;
 namespace AOC_2020
 {
 
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var input = "";
             do
             {
                 Console.WriteLine("Advent of code 2020!!");
-                Console.WriteLine("1. Run");
+                Console.WriteLine("1. Run AOC");
+                Console.WriteLine("2. Run Benchmarks");
                 Console.WriteLine("0. Clear Console");
                 Console.WriteLine("-1. Exit");
                 input = Console.ReadLine();
@@ -29,6 +30,7 @@ namespace AOC_2020
 
                         break;
                     }
+                    
                     case "0":
                     {
                         Console.Clear();

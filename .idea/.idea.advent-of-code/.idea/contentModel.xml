@@ -34,9 +34,22 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netcoreapp3.1" t="Include">
               <e p="AOC_2020.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Benchmarks" t="IncludeRecursive">
+        <e p="AOC2020Benchmarks.cs" t="Include" />
+        <e p="Benchmarks.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Benchmarks.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

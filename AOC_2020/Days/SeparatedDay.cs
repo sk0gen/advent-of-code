@@ -6,12 +6,12 @@ namespace AOC_2020.Days
         /**
      * @return The result of part 1
      */
-        protected abstract object part1();
+        public abstract object part1();
 
         /**
      * @return The result of part 2
-     */    
-        protected abstract object part2();
+     */
+        public abstract object part2();
     
         protected override Result Evaluate()
         {

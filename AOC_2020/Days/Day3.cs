@@ -5,12 +5,12 @@ namespace AOC_2020.Days
     {
         const char threeSign = '#';
 
-        protected override object part1()
+        public override object part1()
         {
             return CountTrees(3, 1);
         }
 
-        protected override object part2()
+        public override object part2()
         {
             long treesA = CountTrees(1,1);
             long treesB = CountTrees(3,1);

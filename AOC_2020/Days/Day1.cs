@@ -10,12 +10,12 @@ namespace AOC_2020.Days
         private const int yearTarget = 2020;
         private HashSet<int> Expenses;
 
-        protected override object part1()
+        public override object part1()
         {
             return FindSumWithTwoNumberEqualsTarget(yearTarget);
         }
 
-        protected override object part2()
+        public override object part2()
         {
             return FindSumWithThreeNumbersEqualsTarget(yearTarget);
         }

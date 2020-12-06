@@ -7,12 +7,12 @@ namespace AOC_2020.Days
     {
         private const int Columns = 8;
 
-        protected override object part1()
+        public override object part1()
         {
             return HighestSeatPart1();
         }
 
-        protected override object part2()
+        public override object part2()
         {
             return FindMySeat();
         }
