@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_advent-of-code.414554135.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
+      <e p="AOC_2020" t="IncludeRecursive">
+        <e p="AOC_2020.csproj" t="IncludeRecursive" />
+        <e p="Days" t="Include">
+          <e p="Day1.cs" t="Include" />
+          <e p="Day2.cs" t="Include" />
+          <e p="Day3.cs" t="Include" />
+          <e p="Day4.cs" t="Include" />
+          <e p="Day5.cs" t="Include" />
+          <e p="SeparatedDay.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="DataManager.cs" t="Include" />
+          <e p="Day.cs" t="Include" />
+          <e p="Result.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="1" t="Include" />
+          <e p="2" t="Include" />
+          <e p="3" t="Include" />
+          <e p="4" t="Include" />
+          <e p="5" t="Include" />
+          <e p="6" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AOC_2020.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="advent-of-code.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
