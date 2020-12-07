@@ -13,7 +13,6 @@ namespace AOC_2020
             {
                 Console.WriteLine("Advent of code 2020!!");
                 Console.WriteLine("1. Run AOC");
-                Console.WriteLine("2. Run Benchmarks");
                 Console.WriteLine("0. Clear Console");
                 Console.WriteLine("-1. Exit");
                 input = Console.ReadLine();

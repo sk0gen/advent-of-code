@@ -72,7 +72,6 @@ namespace AOC_2020.Days
 
         private bool PassportValidationPartTwo(string passport)
         {
-            int total = default;
             for (var i = 0; i < patterns.Length; i++)
             {
                 var regex = new Regex(patterns[i]);

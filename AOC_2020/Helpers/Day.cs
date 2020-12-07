@@ -9,7 +9,7 @@ namespace AOC_2020.Days
     {
         private Result Result { get; set; }
 
-        protected List<string> Lines = new List<string>();
+        protected readonly List<string> Lines = new List<string>();
 
         protected Day()
         {

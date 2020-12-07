@@ -28,27 +28,27 @@ namespace Benchmarks
         [Benchmark]
         public object Day1Part1() => _day1.part1();
         [Benchmark]
-        public object Day1Part2() => _day1.part1();
+        public object Day1Part2() => _day1.part2();
         [Benchmark]
         public object Day2Part1() => _day2.part1();
         [Benchmark]
-        public object Day2Part2() => _day2.part1();
+        public object Day2Part2() => _day2.part2();
         [Benchmark]
         public object Day3Part1() => _day3.part1();
         [Benchmark]
-        public object Day3Part2() => _day3.part1();
+        public object Day3Part2() => _day3.part2();
         [Benchmark]
         public object Day4Part1() => _day4.part1();
         [Benchmark]
-        public object Day4Part2() => _day4.part1();
+        public object Day4Part2() => _day4.part2();
         [Benchmark]
         public object Day5Part1() => _day5.part1();
         [Benchmark]
-        public object Day5Part2() => _day5.part1();
+        public object Day5Part2() => _day5.part2();
         [Benchmark]
         public object Day6Part1() => _day6.part1();
         [Benchmark]
-        public object Day6Part2() => _day6.part1();
+        public object Day6Part2() => _day6.part2();
     }
 
 }

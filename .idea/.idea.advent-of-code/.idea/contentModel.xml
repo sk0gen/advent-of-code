@@ -15,6 +15,7 @@
           <e p="Day4.cs" t="Include" />
           <e p="Day5.cs" t="Include" />
           <e p="Day6.cs" t="Include" />
+          <e p="Day7.cs" t="Include" />
           <e p="SeparatedDay.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
@@ -31,6 +32,7 @@
           <e p="4" t="Include" />
           <e p="5" t="Include" />
           <e p="6" t="Include" />
+          <e p="7" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">

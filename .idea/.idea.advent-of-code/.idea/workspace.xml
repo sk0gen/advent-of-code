@@ -18,18 +18,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4aa6b6c-cbd7-4121-9909-8ca7338fe630" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Benchmarks/AOC2020Benchmarks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOC_2020/Days/Day7.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOC_2020/Resources/7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.advent-of-code/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.advent-of-code/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.advent-of-code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.advent-of-code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOC_2020/Days/Day1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/Days/Day1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOC_2020/Days/Day2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/Days/Day2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOC_2020/Days/Day3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/Days/Day3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOC_2020/Days/Day4.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/Days/Day4.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOC_2020/Days/Day5.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/Days/Day5.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOC_2020/Days/Day6.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/Days/Day6.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOC_2020/Days/SeparatedDay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/Days/SeparatedDay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AOC_2020/AOC_2020.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/AOC_2020.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AOC_2020/Helpers/Day.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/Helpers/Day.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AOC_2020/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AOC_2020/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent-of-code.sln" beforeDir="false" afterPath="$PROJECT_DIR$/advent-of-code.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,15 +66,17 @@
         <option value="$PROJECT_DIR$/AOC_2020/Resources/6" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/AOC_2020/Days/Day6.cs" />
-        <option value="$PROJECT_DIR$/AOC_2020/Helpers/Day.cs" />
         <option value="$PROJECT_DIR$/AOC_2020/Helpers/ReflectionHelper.cs" />
         <option value="$PROJECT_DIR$/AOC_2020/Days/SeparatedDay.cs" />
         <option value="$PROJECT_DIR$/AOC_2020/Benchmarks.cs" />
         <option value="$PROJECT_DIR$/Benchmarks/Benchmarks.csproj" />
-        <option value="$PROJECT_DIR$/AOC_2020/Program.cs" />
-        <option value="$PROJECT_DIR$/Benchmarks/AOC2020Benchmarks.cs" />
         <option value="$PROJECT_DIR$/AOC_2020/AOC_2020.csproj" />
         <option value="$PROJECT_DIR$/Benchmarks/Program.cs" />
+        <option value="$PROJECT_DIR$/Benchmarks/AOC2020Benchmarks.cs" />
+        <option value="$PROJECT_DIR$/AOC_2020/Program.cs" />
+        <option value="$PROJECT_DIR$/AOC_2020/Resources/7" />
+        <option value="$PROJECT_DIR$/AOC_2020/Helpers/Day.cs" />
+        <option value="$PROJECT_DIR$/AOC_2020/Days/Day7.cs" />
       </list>
     </option>
   </component>
@@ -100,7 +97,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Benchmarks">
+  <component name="RunManager" selected=".NET Project.AOC_2020">
     <configuration name="AOC_2020" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/AOC_2020/bin/Debug/netcoreapp3.1/AOC_2020.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -154,6 +151,8 @@
       <workItem from="1607187394795" duration="657000" />
       <workItem from="1607245708062" duration="1738000" />
       <workItem from="1607247677298" duration="8704000" />
+      <workItem from="1607281427826" duration="1707000" />
+      <workItem from="1607327200507" duration="1397000" />
     </task>
     <servers />
   </component>
@@ -186,11 +185,12 @@
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state x="438" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.40.1880.1040@40.40.1880.1040" timestamp="1606856730169" />
-    <state x="777" y="376" width="444" height="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607246085804">
+    <state x="777" y="376" width="444" height="371" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607327291981">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state x="2673" y="349" width="444" height="389" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606906360282" />
     <state x="1960" y="376" key="#com.intellij.fileTypes.FileTypeChooser/0.40.3840.1040@0.40.3840.1040" timestamp="1607100345670" />
+    <state x="777" y="376" key="#com.intellij.fileTypes.FileTypeChooser/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607327291981" />
     <state x="777" y="376" width="444" height="371" key="#com.intellij.fileTypes.FileTypeChooser/40.40.1880.1040@40.40.1880.1040" timestamp="1607246085804" />
     <state width="470" height="468" key="DebuggerActiveHint" timestamp="1607251650539">
       <screen x="40" y="40" width="1880" height="1040" />
@@ -202,53 +202,61 @@
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state x="734" y="435" width="424" height="482" key="FileChooserDialogImpl/40.40.1880.1040@40.40.1880.1040" timestamp="1607269045367" />
-    <state width="1834" height="617" key="GridCell.Tab.0.bottom" timestamp="1607269983796">
+    <state width="1834" height="377" key="GridCell.Tab.0.bottom" timestamp="1607328545662">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state width="1834" height="377" key="GridCell.Tab.0.bottom/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910908359" />
     <state width="1834" height="377" key="GridCell.Tab.0.bottom/0.40.3840.1040@0.40.3840.1040" timestamp="1607100868264" />
-    <state width="1834" height="617" key="GridCell.Tab.0.bottom/40.40.1880.1040@40.40.1880.1040" timestamp="1607269983796" />
-    <state width="1834" height="617" key="GridCell.Tab.0.center" timestamp="1607269983795">
+    <state width="1834" height="377" key="GridCell.Tab.0.bottom/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607328545662" />
+    <state width="1834" height="332" key="GridCell.Tab.0.bottom/40.40.1880.1040@40.40.1880.1040" timestamp="1607283199081" />
+    <state width="1834" height="377" key="GridCell.Tab.0.center" timestamp="1607328545662">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state width="1834" height="377" key="GridCell.Tab.0.center/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910908359" />
     <state width="1834" height="377" key="GridCell.Tab.0.center/0.40.3840.1040@0.40.3840.1040" timestamp="1607100868262" />
-    <state width="1834" height="617" key="GridCell.Tab.0.center/40.40.1880.1040@40.40.1880.1040" timestamp="1607269983795" />
-    <state width="1834" height="617" key="GridCell.Tab.0.left" timestamp="1607269983794">
+    <state width="1834" height="377" key="GridCell.Tab.0.center/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607328545662" />
+    <state width="1834" height="332" key="GridCell.Tab.0.center/40.40.1880.1040@40.40.1880.1040" timestamp="1607283199081" />
+    <state width="1834" height="377" key="GridCell.Tab.0.left" timestamp="1607328545662">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state width="1834" height="377" key="GridCell.Tab.0.left/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910908359" />
     <state width="1834" height="377" key="GridCell.Tab.0.left/0.40.3840.1040@0.40.3840.1040" timestamp="1607100868262" />
-    <state width="1834" height="617" key="GridCell.Tab.0.left/40.40.1880.1040@40.40.1880.1040" timestamp="1607269983794" />
-    <state width="1834" height="617" key="GridCell.Tab.0.right" timestamp="1607269983795">
+    <state width="1834" height="377" key="GridCell.Tab.0.left/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607328545662" />
+    <state width="1834" height="332" key="GridCell.Tab.0.left/40.40.1880.1040@40.40.1880.1040" timestamp="1607283199081" />
+    <state width="1834" height="377" key="GridCell.Tab.0.right" timestamp="1607328545662">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state width="1834" height="377" key="GridCell.Tab.0.right/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910908359" />
     <state width="1834" height="377" key="GridCell.Tab.0.right/0.40.3840.1040@0.40.3840.1040" timestamp="1607100868263" />
-    <state width="1834" height="617" key="GridCell.Tab.0.right/40.40.1880.1040@40.40.1880.1040" timestamp="1607269983795" />
-    <state width="1834" height="377" key="GridCell.Tab.1.bottom" timestamp="1607252047499">
+    <state width="1834" height="377" key="GridCell.Tab.0.right/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607328545662" />
+    <state width="1834" height="332" key="GridCell.Tab.0.right/40.40.1880.1040@40.40.1880.1040" timestamp="1607283199081" />
+    <state width="1834" height="377" key="GridCell.Tab.1.bottom" timestamp="1607328569722">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state width="1834" height="377" key="GridCell.Tab.1.bottom/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910908359" />
     <state width="1834" height="377" key="GridCell.Tab.1.bottom/0.40.3840.1040@0.40.3840.1040" timestamp="1607100943457" />
+    <state width="1834" height="377" key="GridCell.Tab.1.bottom/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607328569722" />
     <state width="1834" height="377" key="GridCell.Tab.1.bottom/40.40.1880.1040@40.40.1880.1040" timestamp="1607252047499" />
-    <state width="1834" height="377" key="GridCell.Tab.1.center" timestamp="1607252047499">
+    <state width="1834" height="377" key="GridCell.Tab.1.center" timestamp="1607328569722">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state width="1834" height="377" key="GridCell.Tab.1.center/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910908359" />
     <state width="1834" height="377" key="GridCell.Tab.1.center/0.40.3840.1040@0.40.3840.1040" timestamp="1607100943456" />
+    <state width="1834" height="377" key="GridCell.Tab.1.center/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607328569722" />
     <state width="1834" height="377" key="GridCell.Tab.1.center/40.40.1880.1040@40.40.1880.1040" timestamp="1607252047499" />
-    <state width="1834" height="377" key="GridCell.Tab.1.left" timestamp="1607252047499">
+    <state width="1834" height="377" key="GridCell.Tab.1.left" timestamp="1607328569722">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state width="1834" height="377" key="GridCell.Tab.1.left/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910908359" />
     <state width="1834" height="377" key="GridCell.Tab.1.left/0.40.3840.1040@0.40.3840.1040" timestamp="1607100943455" />
+    <state width="1834" height="377" key="GridCell.Tab.1.left/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607328569722" />
     <state width="1834" height="377" key="GridCell.Tab.1.left/40.40.1880.1040@40.40.1880.1040" timestamp="1607252047499" />
-    <state width="1834" height="377" key="GridCell.Tab.1.right" timestamp="1607252047499">
+    <state width="1834" height="377" key="GridCell.Tab.1.right" timestamp="1607328569722">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state width="1834" height="377" key="GridCell.Tab.1.right/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606910908359" />
     <state width="1834" height="377" key="GridCell.Tab.1.right/0.40.3840.1040@0.40.3840.1040" timestamp="1607100943456" />
+    <state width="1834" height="377" key="GridCell.Tab.1.right/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607328569722" />
     <state width="1834" height="377" key="GridCell.Tab.1.right/40.40.1880.1040@40.40.1880.1040" timestamp="1607252047499" />
     <state width="1834" height="377" key="GridCell.Tab.2.bottom" timestamp="1607252047500">
       <screen x="40" y="40" width="1880" height="1040" />
@@ -326,11 +334,12 @@
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state x="575" y="281" width="800" height="528" key="Rider.ProjectTemplateDialog.Size/40.40.1880.1040@40.40.1880.1040" timestamp="1607268443485" />
-    <state x="831" y="286" width="334" height="579" key="RiderGenerateDialog" timestamp="1607246739594">
+    <state x="831" y="286" width="334" height="579" key="RiderGenerateDialog" timestamp="1607327759809">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
     <state x="2728" y="255" width="398" height="575" key="RiderGenerateDialog/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606906793720" />
     <state x="1960" y="286" width="334" height="579" key="RiderGenerateDialog/0.40.3840.1040@0.40.3840.1040" timestamp="1607101008946" />
+    <state x="831" y="286" width="334" height="579" key="RiderGenerateDialog/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607327759809" />
     <state x="831" y="286" width="334" height="579" key="RiderGenerateDialog/40.40.1880.1040@40.40.1880.1040" timestamp="1607246739594" />
     <state x="491" y="186" width="992" height="758" key="SettingsEditor" timestamp="1607269066809">
       <screen x="40" y="40" width="1880" height="1040" />
@@ -353,10 +362,11 @@
       <screen x="0" y="40" width="3840" height="1040" />
     </state>
     <state x="2564" y="250" key="run.anything.popup/0.40.3840.1040@0.40.3840.1040" timestamp="1607100440279" />
-    <state x="643" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1607269019877">
+    <state x="643" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1607327751487">
       <screen x="40" y="40" width="1880" height="1040" />
     </state>
-    <state x="643" y="248" width="672" height="678" key="search.everywhere.popup/40.40.1880.1040@40.40.1880.1040" timestamp="1607269019877" />
+    <state x="643" y="248" width="672" height="678" key="search.everywhere.popup/40.40.1880.1040/1920.0.1920.1080@40.40.1880.1040" timestamp="1607327751487" />
+    <state x="643" y="248" width="672" height="678" key="search.everywhere.popup/40.40.1880.1040@40.40.1880.1040" timestamp="1607282476451" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,17 +385,17 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AOC_2020/Days/Day6.cs</url>
-          <line>80</line>
-          <properties documentPath="$PROJECT_DIR$/AOC_2020/Days/Day6.cs" initialLine="19">
+          <url>file://$PROJECT_DIR$/AOC_2020/Days/Day7.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/AOC_2020/Days/Day7.cs" initialLine="26">
             <startOffsets>
-              <option value="2162" />
+              <option value="621" />
             </startOffsets>
             <endOffsets>
-              <option value="2200" />
+              <option value="622" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
