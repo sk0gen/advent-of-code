@@ -4,8 +4,25 @@
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_advent-of-code.414554135.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.7.1/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.3/build/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.3/build/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.3/build/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p=".git/info/exclude" t="IncludeRecursive" />
+      <e p="AOC2020Tests" t="IncludeRecursive">
+        <e p="AOC2020Tests.csproj" t="IncludeRecursive" />
+        <e p="Day1Tests.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AOC2020Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="AOC_2020" t="IncludeRecursive">
         <e p="AOC_2020.csproj" t="IncludeRecursive" />
         <e p="Days" t="Include">
@@ -16,6 +33,7 @@
           <e p="Day5.cs" t="Include" />
           <e p="Day6.cs" t="Include" />
           <e p="Day7.cs" t="Include" />
+          <e p="Day8.cs" t="Include" />
           <e p="SeparatedDay.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
@@ -33,6 +51,7 @@
           <e p="5" t="Include" />
           <e p="6" t="Include" />
           <e p="7" t="Include" />
+          <e p="8" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">

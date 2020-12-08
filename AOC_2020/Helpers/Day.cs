@@ -7,8 +7,6 @@ namespace AOC_2020.Days
 
     public abstract class Day
     {
-        private Result Result { get; set; }
-
         protected readonly List<string> Lines = new List<string>();
 
         protected Day()
@@ -23,14 +21,14 @@ namespace AOC_2020.Days
         {
             var stopWatch = new Stopwatch();
             stopWatch.Start();
-            Result = ParseAndEvaluate();
+            var result = ParseAndEvaluate();
             stopWatch.Stop();
             // Get the elapsed time as a TimeSpan value.
             var ts = stopWatch.Elapsed;
             var elapsedTime = $"{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}.{ts.Milliseconds / 10:00}";
             Console.WriteLine(GetType().Name);
-            Console.WriteLine("✅ Part 1: " + Result.Part1);
-            Console.WriteLine("✅ Part 2: " + Result.Part2);
+            Console.WriteLine("✅ Part 1: " + result.Item1);
+            Console.WriteLine("✅ Part 2: " + result.Item2);
             Console.WriteLine($"Completed in {elapsedTime}\n");
         }
 
@@ -40,17 +38,17 @@ namespace AOC_2020.Days
      *
      * @return A {@link Result} holding data of the first and second part
      */
-        public Result ParseAndEvaluate()
+        public (object, object) ParseAndEvaluate()
         {
             Parse();
-            Result = Evaluate();
+            var Result = Evaluate();
             return Result;
         }
 
         /**
      * This internal method is what actually evaluates the result of part 1 and part 2.
      */
-        protected abstract Result Evaluate();
+        protected abstract (object,object) Evaluate();
 
         /**
          * This internal method can be overridden to parse the {@link #lines} of the day into something more useful for

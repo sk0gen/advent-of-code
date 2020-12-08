@@ -14,6 +14,8 @@ namespace Benchmarks
         private readonly Day4 _day4 = new Day4();
         private readonly Day5 _day5 = new Day5();
         private readonly Day6 _day6 = new Day6();
+        private readonly Day7 _day7 = new Day7();
+        private readonly Day8 _day8 = new Day8();
 
         public AOC2020Benchmarks()
         {
@@ -23,6 +25,8 @@ namespace Benchmarks
             _day4.Run();
             _day5.Run();
             _day6.Run();
+            _day7.Run();
+            _day8.Run();
         }
 
         [Benchmark]
@@ -49,6 +53,14 @@ namespace Benchmarks
         public object Day6Part1() => _day6.part1();
         [Benchmark]
         public object Day6Part2() => _day6.part2();
+        [Benchmark]
+        public object Day7Part1() => _day7.part1();
+        [Benchmark]
+        public object Day7Part2() => _day7.part2();
+        [Benchmark]
+        public object Day8Part1() => _day8.part1();
+        [Benchmark]
+        public object Day8Part2() => _day8.part2();
     }
 
 }

@@ -3,8 +3,8 @@ namespace AOC_2020.Days
 
     public class Result
     {
-        public object Part1 { get; private set; }
-        public object Part2 { get; private set; }
+        private object Part1 { get; set; }
+        private object Part2 { get; set; }
 
         public Result(object part1, object part2)
         {

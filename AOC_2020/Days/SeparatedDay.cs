@@ -13,9 +13,9 @@ namespace AOC_2020.Days
      */
         public abstract object part2();
     
-        protected override Result Evaluate()
+        protected override (object, object) Evaluate()
         {
-            return new Result(part1(), part2());
+            return (part1(), part2());
         }
     }
 
