@@ -1,19 +1,18 @@
 package day1
 
 import (
-	"bufio"
+	"advent-of-code/utils"
 	"fmt"
-	"log"
-	"os"
 	"sort"
 	"strconv"
 )
 
 func Day1() {
-	fmt.Println(Task_a(readLines("input.txt")))
+	fmt.Println(TaskA(utils.ReadLines("input.txt")))
+	fmt.Println(TaskB(utils.ReadLines("input.txt")))
 }
 
-func Task_a(lines []string) (res int) {
+func TaskA(lines []string) (res int) {
 	var max = 0
 	var curr = 0
 
@@ -31,7 +30,7 @@ func Task_a(lines []string) (res int) {
 	return max
 }
 
-func Task_b(lines []string) (res int) {
+func TaskB(lines []string) (res int) {
 	var values []int
 
 	var curr = 0
@@ -58,20 +57,4 @@ func maxValue(a, b int) int {
 		return a
 	}
 	return b
-}
-
-func readLines(filePath string) []string {
-	file, err := os.Open(filePath)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	scanner := bufio.NewScanner(file)
-	var lines []string
-	// optionally, resize scanner's capacity for lines over 64K, see next example
-	for scanner.Scan() {
-		lines = append(lines, scanner.Text())
-	}
-
-	return lines
 }

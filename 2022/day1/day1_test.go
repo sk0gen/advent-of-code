@@ -1,11 +1,14 @@
 package day1
 
-import "testing"
+import (
+	"advent-of-code/utils"
+	"testing"
+)
 
 func TestATestInput(t *testing.T) {
 
-	lines := readLines("input_test.txt")
-	result := Task_a(lines)
+	lines := utils.ReadLines("input_test.txt")
+	result := TaskA(lines)
 
 	expected := 24000
 	if result != expected {
@@ -15,8 +18,8 @@ func TestATestInput(t *testing.T) {
 
 func TestATaskInput(t *testing.T) {
 
-	lines := readLines("input.txt")
-	result := Task_a(lines)
+	lines := utils.ReadLines("input.txt")
+	result := TaskA(lines)
 
 	expected := 70764
 
@@ -26,8 +29,8 @@ func TestATaskInput(t *testing.T) {
 }
 
 func TestBTestInput(t *testing.T) {
-	lines := readLines("input_test.txt")
-	result := Task_b(lines)
+	lines := utils.ReadLines("input_test.txt")
+	result := TaskB(lines)
 
 	expected := 45000
 	if result != expected {
@@ -36,8 +39,8 @@ func TestBTestInput(t *testing.T) {
 }
 
 func TestBTaskInput(t *testing.T) {
-	lines := readLines("input.txt")
-	result := Task_b(lines)
+	lines := utils.ReadLines("input.txt")
+	result := TaskB(lines)
 
 	expected := 203905
 	if result != expected {
