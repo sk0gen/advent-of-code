@@ -21,7 +21,7 @@ func TaskA(lines []string) (res int) {
 			max = maxValue(max, curr)
 			curr = 0
 		}
-
+		
 		intVal, _ := strconv.Atoi(lines[i])
 		curr += intVal
 	}
