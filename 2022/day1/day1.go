@@ -1,16 +1,9 @@
 package day1
 
 import (
-	"advent-of-code/utils"
-	"fmt"
 	"sort"
 	"strconv"
 )
-
-func Day1() {
-	fmt.Println(TaskA(utils.ReadLines("input.txt")))
-	fmt.Println(TaskB(utils.ReadLines("input.txt")))
-}
 
 func TaskA(lines []string) (res int) {
 	var max = 0
@@ -21,7 +14,7 @@ func TaskA(lines []string) (res int) {
 			max = maxValue(max, curr)
 			curr = 0
 		}
-		
+
 		intVal, _ := strconv.Atoi(lines[i])
 		curr += intVal
 	}

@@ -1,15 +1,5 @@
 package day2
 
-import (
-	"advent-of-code/utils"
-	"fmt"
-)
-
-func Day2() {
-	fmt.Println(TaskA(utils.ReadLines("input.txt")))
-	//fmt.Println(TaskB(utils.ReadLines("input.txt")))
-}
-
 func TaskA(lines []string) (res int) {
 	pointsMap := map[string]int{
 		"A X": 4,
