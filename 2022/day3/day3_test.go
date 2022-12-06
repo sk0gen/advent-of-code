@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestATestInput(t *testing.T) {
+func TestTaskATestInput(t *testing.T) {
 
 	lines := utils.ReadLines("input_test.txt")
 	result := TaskA(lines)
@@ -16,7 +16,7 @@ func TestATestInput(t *testing.T) {
 	}
 }
 
-func TestATaskInput(t *testing.T) {
+func TestTaskATaskInput(t *testing.T) {
 
 	lines := utils.ReadLines("input.txt")
 	result := TaskA(lines)
@@ -28,7 +28,7 @@ func TestATaskInput(t *testing.T) {
 	}
 }
 
-func TestBTestInput(t *testing.T) {
+func TestTaskBTestInput(t *testing.T) {
 	lines := utils.ReadLines("input_test.txt")
 	result := TaskB(lines)
 
@@ -38,7 +38,7 @@ func TestBTestInput(t *testing.T) {
 	}
 }
 
-func TestBTaskInput(t *testing.T) {
+func TestTaskBTaskInput(t *testing.T) {
 	lines := utils.ReadLines("input.txt")
 	result := TaskB(lines)
 

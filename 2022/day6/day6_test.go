@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestATestInput(t *testing.T) {
+func TestTaskATestInput(t *testing.T) {
 	file, _ := os.ReadFile("input_test.txt")
 	result := TaskA(string(file))
 
@@ -15,7 +15,7 @@ func TestATestInput(t *testing.T) {
 	}
 }
 
-func TestATaskInput(t *testing.T) {
+func TestTaskATaskInput(t *testing.T) {
 
 	file, _ := os.ReadFile("input.txt")
 	result := TaskA(string(file))
@@ -27,7 +27,7 @@ func TestATaskInput(t *testing.T) {
 	}
 }
 
-func TestBTestInput(t *testing.T) {
+func TestTaskBTestInput(t *testing.T) {
 	file, _ := os.ReadFile("input_test.txt")
 	result := TaskB(string(file))
 
@@ -38,7 +38,7 @@ func TestBTestInput(t *testing.T) {
 	}
 }
 
-func TestBTaskInput(t *testing.T) {
+func TestTaskBTaskInput(t *testing.T) {
 	file, _ := os.ReadFile("input.txt")
 	result := TaskB(string(file))
 
