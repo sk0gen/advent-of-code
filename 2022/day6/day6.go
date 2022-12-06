@@ -6,7 +6,13 @@ func TaskA(input string) int {
 
 func findMarker(input string, markerLength int) int {
 	for i := 0; i < len(input); i++ {
-		if unique(input[i : i+markerLength]) {
+		markerLetters := input[i : i+markerLength]
+		lettersMap := make(map[rune]bool)
+		for _, letter := range markerLetters {
+			lettersMap[letter] = true
+		}
+
+		if len(lettersMap) == markerLength {
 			return i + markerLength
 		}
 	}
@@ -15,18 +21,4 @@ func findMarker(input string, markerLength int) int {
 
 func TaskB(input string) int {
 	return findMarker(input, 14)
-}
-
-func unique(arr string) bool {
-	m := make(map[rune]bool)
-	for _, i := range arr {
-		_, ok := m[i]
-		if ok {
-			return false
-		}
-
-		m[i] = true
-	}
-
-	return true
 }
