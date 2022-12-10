@@ -13,9 +13,10 @@ var directions = map[string]Direction{
 }
 
 func TaskA(lines []string) (res int) {
-	var hx, hy, tx, ty = 0, 0, 0, 0
+	var head = Point{x: 0, y: 0}
+	var tail = Point{x: 0, y: 0}
 	visited := map[Point]bool{}
-	visited[Point{x: tx, y: ty}] = true
+	visited[tail] = true
 
 	for _, line := range lines {
 		split := strings.Split(line, " ")
@@ -23,26 +24,16 @@ func TaskA(lines []string) (res int) {
 		dir := directions[split[0]]
 
 		for i := 0; i < amount; i++ {
-			moveA(&hx, &hy, &tx, &ty, dir)
-			visited[Point{tx, ty}] = true
+			moveA(&head, &tail, dir)
+			visited[tail] = true
 		}
 	}
 	return len(visited)
 }
 
-func moveA(hx *int, hy *int, tx *int, ty *int, direction Direction) {
-	*hx += direction.x
-	*hy += direction.y
-
-	if !touching(hx, hy, tx, ty) {
-		if *hx != *tx {
-			*tx += (*hx - *tx) / abs(*hx-*tx)
-		}
-		if *hy != *ty {
-			*ty += (*hy - *ty) / abs(*hy-*ty)
-		}
-
-	}
+func moveA(head *Point, tail *Point, direction Direction) {
+	head.Move(direction)
+	tail.Follow(*head)
 }
 
 func abs(value int) int {
@@ -51,9 +42,6 @@ func abs(value int) int {
 	}
 
 	return value
-}
-func touching(x1 *int, y1 *int, x2 *int, y2 *int) bool {
-	return abs(*x1-*x2) <= 1 && abs(*y1-*y2) <= 1
 }
 
 func TaskB(lines []string) (res int) {
