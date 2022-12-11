@@ -21,7 +21,7 @@ func TaskA(monkeys []*Monkey) int {
 }
 
 func TaskB(monkeys []*Monkey) int {
-	for i := 0; i < 1000; i++ {
+	for i := 0; i < 10000; i++ {
 		for _, monkey := range monkeys {
 			monkey.step(monkeys)
 		}
@@ -34,11 +34,4 @@ func TaskB(monkeys []*Monkey) int {
 	fmt.Println(work[len(work)-1])
 	fmt.Println(work[len(work)-2])
 	return work[len(work)-1] * work[len(work)-2]
-}
-
-func maxValue(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }

@@ -28,16 +28,16 @@ func TestTaskATaskInput(t *testing.T) {
 func TestTaskBTestInput(t *testing.T) {
 	result := TaskB(part2Modifier(GenTestMonkeys()))
 
-	expected := 45000
+	expected := 2713310158
 	if result != expected {
 		t.Errorf("got %d, wanted %d", result, expected)
 	}
 }
 
 func TestTaskBTaskInput(t *testing.T) {
-	result := TaskB(GenTaskMonkeys())
+	result := TaskB(part2Modifier(GenTaskMonkeys()))
 
-	expected := 203905
+	expected := 11614682178
 	if result != expected {
 		t.Errorf("got %d, wanted %d", result, expected)
 	}
@@ -50,9 +50,14 @@ func part1Modifier(monkeys []*Monkey) []*Monkey {
 }
 
 func part2Modifier(monkeys []*Monkey) []*Monkey {
-	modifier := 17 * 2 * 5 * 3 * 7 * 13 * 19 * 11
+	modifier := 1
+
 	for _, monkey := range monkeys {
-		monkey.operation = mod(modifier, monkey.operation)
+		modifier *= monkey.testValue
+	}
+
+	for _, m := range monkeys {
+		m.operation = mod(modifier, m.operation)
 	}
 	return monkeys
 }
